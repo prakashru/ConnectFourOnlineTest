@@ -23,7 +23,7 @@ public class Game {
 		System.out.print("Second Player Name:");
 		sPlayerName = sScanner.next();
 		System.out.println(fPlayerName + " is representing as:" + fPlayerName.charAt(0));
-		System.out.println(sPlayerName + " is representing as:" + sPlayerName.charAt(1));
+		System.out.println(sPlayerName + " is representing as:" + sPlayerName.charAt(0));
 		System.out.println("Game board is ready to play.");
 		// Initializing empty board at the beginning
 
